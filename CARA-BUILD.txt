@@ -1,0 +1,8 @@
+1. Buat repository baru di github.com (boleh Private), lalu upload SEMUA isi folder ini
+   (termasuk folder .github dan gradle). Cara termudah: Add file > Upload files, seret semua isinya.
+   Jika folder .github tidak ikut terunggah dari browser, pakai GitHub Desktop atau git push.
+2. Buka tab Actions > "Build APK" > tunggu centang hijau (sekitar 5-8 menit).
+3. Klik run tersebut > bagian Artifacts > unduh "CekHarga-APK" (zip berisi app-debug.apk).
+4. Kirim app-debug.apk ke HP, izinkan "Install dari sumber tidak dikenal", lalu pasang.
+Untuk mengganti link spreadsheet: edit DEFAULT_SHEET_URL di app/src/main/assets/index.html, simpan (commit);
+APK baru otomatis dibuat.
